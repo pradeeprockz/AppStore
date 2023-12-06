@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.tab-item {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab-item.active {
+  background-color: #333;
+  color: #fff;
+}

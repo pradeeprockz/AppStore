@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.app-store-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.app-store-container h1 {
+  font-family: 'Bree Serif', serif;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tab-item {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.tab-item.active {
+  background-color: #333;
+  color: #fff;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.search-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+.apps-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-store-container input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.app-store-container button:focus {
+  outline: none;
+}
